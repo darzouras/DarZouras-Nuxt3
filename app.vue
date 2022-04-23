@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="default">
-    Hi this is App.vue
+    <NuxtPage />
   </NuxtLayout>
 </template>
 

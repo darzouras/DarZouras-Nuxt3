@@ -17,9 +17,16 @@ module.exports = {
         'light-green': '#44ddae',
         'mid-green': '#1fc19e',
         'dark-green': '#0b987c'
-      }
+      },
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem'
+      }
+    }
   },
   plugins: [],
-  darkMode: 'class'
+  darkMode: 'media'
 }

@@ -1,6 +1,5 @@
 <template>
-    <div class="bg-dark-purple text-white p-10">
-        <div>THIS IS THE TEMPLATE</div>
+    <div class="min-h-screen w-full bg-white text-dark-purple dark:bg-dark-purple dark:text-white">
         <slot />
     </div>
 </template>
