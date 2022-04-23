@@ -1,32 +1,32 @@
 module.exports = {
   mode: 'jit',
   content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
     // "./nuxt.config.{js,ts}",
   ],
   theme: {
     extend: {
       colors: {
-        'white': '#e8eddf',
+        white: '#e8eddf',
         'light-purple': '#44355b',
         'mid-purple': '#31263e',
         'dark-purple': '#221e22',
         'light-green': '#44ddae',
         'mid-green': '#1fc19e',
-        'dark-green': '#0b987c'
+        'dark-green': '#0b987c',
       },
     },
     container: {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem'
-      }
-    }
+        lg: '4rem',
+      },
+    },
   },
   plugins: [],
-  darkMode: 'media'
+  darkMode: 'media',
 }
