@@ -8,5 +8,5 @@ const story = await useStoryblok('home', {
 </script>
 
 <template>
-  <main class="container bg-mid-green text-dark-purple">{{ story }}</main>
+  <div>{{ story }}</div>
 </template>

@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: '#e8eddf',
+        'white': '#e8eddf',
         'light-purple': '#44355b',
         'mid-purple': '#31263e',
         'dark-purple': '#221e22',
@@ -20,13 +20,15 @@ module.exports = {
       },
     },
     container: {
+      center: true,
       padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
+        DEFAULT: '2rem',
+        md: '6rem'
       },
+      screens: {
+        sm: '666px'
+      }
     },
   },
   plugins: [],
-  darkMode: 'media',
 }
